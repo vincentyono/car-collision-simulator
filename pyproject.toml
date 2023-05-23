@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "car-collision-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Vincent Yono <vincentyono@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "car_collision_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.4.0"
+pymunk = "^6.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
